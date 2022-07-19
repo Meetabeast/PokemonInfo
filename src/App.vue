@@ -25,6 +25,7 @@
     <div class="footer">
       <div class="footer-container">
         <a href="https://github.com/Meetabeast/PokemonInfo" target="_blank">
+          <p >This Website only show's a demo</p>
           <p>Show the Code on Github</p>
         </a>
       </div>
