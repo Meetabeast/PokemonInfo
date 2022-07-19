@@ -16,15 +16,19 @@
             <div class="modal-stats">
               <p>Weight: <span>{{pokemon.width}}</span></p>
               <p>Height: <span>{{pokemon.height}}</span></p>
-
-              
             </div>
           </div>
         </div>
       </div>
       
     </div>
-    
+    <div class="footer">
+      <div class="footer-container">
+        <a href="https://github.com/Meetabeast/PokemonInfo" target="_blank">
+          <p>Show the Code on Github</p>
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -245,7 +249,20 @@ export default {
     color: rgb(255, 255, 255);
     padding: 10px 10px;
   }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    font-family: 'Arial', sans-serif;
+    font-size: 19px;
+  }
 
+  .footer-container a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
   ::-webkit-scrollbar {
     width: 10px;
   }
