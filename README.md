@@ -5,4 +5,4 @@ This was my first project with Vue
 You are welcome to install this project and use it for yourself or get suggestions here.
 
 # Demo
-[Demo](https://pokemoninfo.pages.dev/)
+[Demo](https://pokemon.nkoch.xyz/)
