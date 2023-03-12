@@ -91,7 +91,22 @@ export default {
         border: 1px solid rgb(0, 0, 0);
         color: var(--textColor2);
     }
+    
+    body.ThemeLight .updates {
+        color: var(--textColor2);
+    }
 
+    body.ThemeLight .update-btn {
+        background-color: var(--background2);
+        color: var(--textColor2);
+        border: 1px solid black;
+    }
+
+    body.ThemeLight .update-content {
+        background-color: rgb(252, 252, 252);
+        color: var(--textColor2);
+    }
+    
     :root {
         --background1: rgb(18, 18, 22);
         --background2: rgb(255, 255, 255);
