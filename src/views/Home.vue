@@ -97,6 +97,11 @@ body {
     text-align: center;
 }
 
+.pokemon:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px rgb(8, 8, 8);
+}
+
 .input-field {
     display: block;
     background-color: var(--cardColor);
